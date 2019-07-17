@@ -13,4 +13,4 @@ $ GOOS=windows GOARCH=386 go build -o cmdlinehttpserver.exe cmdlinehttpserver.go
 
 By default it listens on port 8080 of all interfaces.
 
-Security note: this commandline tool is everything but secure (http, directory listing, no auth, etc.), for a more secure version with upload feature available have a look at https://github.com/giuliocomi/http-server.
+Security note: this commandline tool is everything but secure (http, directory listing, no auth, no rate limiting, etc.), for a more secure version with upload feature available have a look at https://github.com/giuliocomi/http-server.
