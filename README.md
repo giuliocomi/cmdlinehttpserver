@@ -2,7 +2,7 @@
 Minimalistic Golang HttpServer
 
 Simple standalone http server with directory listing enabled to allow a quick transfer of files.
-It is ideal to compile and run it from 32/64 bits windows machines when setting up a SMB share or using the FTP embedded command line client are not an option.
+It is ideal to compile and run it from 32/64 bits windows machines when all common transfer method (smb, ftp, tftp, .vbs, certutil, mshta, .., .ps1, nc, bitsadmin, etc.) are not an option.
 
 Usage:
 > .\cmdlinehttpserver.exe -a 0.0.0.0 -p 4343
