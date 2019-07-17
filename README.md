@@ -8,6 +8,7 @@ Usage:
 > .\cmdlinehttpserver.exe -a 0.0.0.0 -p 4343
 
 To cross compile the standalone for different OS or architectures:
+
 $ GOOS=windows GOARCH=386 go build -o cmdlinehttpserver.exe cmdlinehttpserver.go
 
 By default it listens on port 8080 of all interfaces.
