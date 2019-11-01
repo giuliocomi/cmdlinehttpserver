@@ -7,7 +7,9 @@ It is ideal to compile and run it from 32/64 bits windows machines when all comm
 Usage:
 > .\cmdlinehttpserver.exe -a 0.0.0.0 -p 4343
 
-To cross compile the standalone for different OS or architectures:
+To cross compile the standalone for different OS or architectures see https://www.digitalocean.com/community/tutorials/how-to-build-go-executables-for-multiple-platforms-on-ubuntu-16-04#step-4-%E2%80%94-building-executables-for-different-architectures
+
+Example compiling windows executable from linux:
 
 $ GOOS=windows GOARCH=386 go build -o cmdlinehttpserver.exe cmdlinehttpserver.go
 
